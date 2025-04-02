@@ -14,6 +14,5 @@ Perfect for beginners who want to host their own website!
 ## Repository Structure
 
 - **docs/** → Step-by-step setup guides
-- **configs/** → Nginx & Apache configuration templates
 - **scripts/** → Automation scripts for installation & configuration
 - **assets/** → Supporting images
