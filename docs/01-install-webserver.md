@@ -4,7 +4,7 @@ This guide walks you through installing and setting up **Nginx or Apache** as a 
 
 ---
 
-## 1️⃣ Installing Nginx
+## 1. Installing Nginx
 
 ### Step 1: Update Package List
 
@@ -57,7 +57,7 @@ If you see the **"Welcome to Nginx!"** page, the installation is successful.
 
 ---
 
-## 2️⃣ Installing Apache
+## 2. Installing Apache
 
 ### Step 1: Install Apache
 
@@ -101,7 +101,7 @@ If Apache is installed correctly, you should see the **default Apache page**.
 
 ---
 
-## 3️⃣ Common Issues & Fixes
+## 3. Common Issues & Fixes
 
 ### ❌ Issue: Nginx or Apache not starting
 
@@ -111,7 +111,7 @@ If Apache is installed correctly, you should see the **default Apache page**.
 Job for nginx.service failed because the control process exited with error code.
 ```
 
-✅ **Fix:**
+**Fix:**
 
 - Check which service is using port 80:
   ```bash
@@ -124,7 +124,7 @@ Job for nginx.service failed because the control process exited with error code.
   ```
   or vice versa.
 
-### ❌ Issue: "403 Forbidden" on Nginx
+### Issue: "403 Forbidden" on Nginx
 
 **Error:**
 
@@ -132,7 +132,7 @@ Job for nginx.service failed because the control process exited with error code.
 403 Forbidden - You don't have permission to access this resource.
 ```
 
-✅ **Fix:**
+**Fix:**
 Check file permissions and set correct ownership:
 
 ```bash
