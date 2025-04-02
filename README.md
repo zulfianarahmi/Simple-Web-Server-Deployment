@@ -16,15 +16,4 @@ Perfect for beginners who want to host their own website! 🚀
 - **docs/** → Step-by-step setup guides
 - **configs/** → Nginx & Apache configuration templates
 - **scripts/** → Automation scripts for installation & configuration
-- **assets/** → Supporting images (optional)
-
-## 🚀 Getting Started
-
-### 1️⃣ Install Web Server
-
-Use the automation scripts:
-
-```bash
-bash scripts/setup-nginx.sh  # For Nginx
-bash scripts/setup-apache.sh  # For Apache
-```
+- **assets/** → Supporting images
